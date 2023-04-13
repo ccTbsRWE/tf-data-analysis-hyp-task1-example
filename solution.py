@@ -6,8 +6,8 @@ chat_id = 611202811 # Ваш chat ID, не меняйте название пе�
 
 def solution(convs_ctrl: int, 
              imps_ctrl: int, 
-             imps_test: int, 
-             convs_test: int) -> bool:
+             convs_test: int, 
+             imps_ctrl: int) -> bool:
     a_C, b_C = convs_ctrl+1, imps_ctrl-convs_ctrl+1
     beta_C = beta(a_C, b_C)
     a_T, b_T = convs_test+1, imps_test-convs_test+1
