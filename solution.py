@@ -18,7 +18,7 @@ def solution(convs_ctrl: int,
 
     #calculating the probability for Test to be better than Control
     prob=calc_prob_between(beta_T, beta_C)
-    if prob <= 0.07:
+    if prob < 0.07:
       return False
     else:
       return True
